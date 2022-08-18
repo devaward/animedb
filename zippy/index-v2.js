@@ -1,11 +1,8 @@
-const puppeteer = require('puppeteer')
 const express = require('express')
 const app = express()
 const fetch = require('node-fetch')
 const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
-const CryptoJS = require("crypto-js");
-const jona = 'Jonariar Deva Wardhani';
   
 app.get('/', async (a,b) => {
   try {
